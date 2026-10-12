@@ -1,0 +1,24 @@
+Dataset: synthetic_product_reviews.csv
+Total reviews: 101
+Helpful label count: 60
+Unhelpful label count: 41
+Training reviews: 75
+Test reviews: 26
+Accuracy: 0.9231 (92.31%)
+
+Classification report:
+                  precision    recall  f1-score   support
+
+Likely unhelpful       1.00      0.82      0.90        11
+  Likely helpful       0.88      1.00      0.94        15
+
+        accuracy                           0.92        26
+       macro avg       0.94      0.91      0.92        26
+    weighted avg       0.93      0.92      0.92        26
+
+Confusion matrix (rows=true [unhelpful, helpful], columns=predicted [unhelpful, helpful]):
+[[ 9  2]
+ [ 0 15]]
+
+Interpretation note: these scores are only a demonstration on synthetic, template-generated data.
+They are not evidence of performance on real customer reviews.
